@@ -466,7 +466,7 @@ bin/mssconfig
 etc/init/mssconfig.rc
 
 # QCRIL_RADIO
--app/QtiTelephonyService/QtiTelephonyService.apk|9233f71f7bf7071e2ed53dc5383b06c175ade1bf
+-app/QtiTelephonyService/QtiTelephonyService.apk
 -app/embms/embms.apk
 -app/datastatusnotification/datastatusnotification.apk
 etc/permissions/embms.xml
@@ -474,7 +474,7 @@ etc/permissions/lpa.xml
 etc/permissions/qcrilhook.xml
 etc/permissions/telephonyservice.xml
 etc/sysconfig/qti_whitelist.xml
-framework/QtiTelephonyServicelibrary.jar|ee040ed40595a0c5871780b1d5be753954ae523d
+framework/QtiTelephonyServicelibrary.jar
 -framework/qcrilhook.jar
 framework/embmslibrary.jar
 framework/uimlpalibrary.jar
