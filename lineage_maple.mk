@@ -2,8 +2,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
-IS_MAPLE_DSDS := false
-WITH_VOLTE := false
+IS_MAPLE_DSDS := true
+WITH_VOLTE := true
 
 # Inherit device configuration
 $(call inherit-product, device/sony/maple/device.mk)
